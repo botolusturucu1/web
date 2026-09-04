@@ -48,7 +48,6 @@ dependencies:
   gap: ^3.0.1
 
   # RSS/HTML parsing
-  webfeed: ^0.7.0
   html: ^0.15.4
 
   # Shared preferences for non-sensitive data
