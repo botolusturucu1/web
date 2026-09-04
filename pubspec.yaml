@@ -1,0 +1,69 @@
+name: nexusedu_ultra
+description: NexusEdu Ultra - Akıllı Yaşam ve Okul Asistanı
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Database
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+  # Encrypted storage for API keys
+  flutter_secure_storage: ^9.0.0
+
+  # HTTP client
+  http: ^1.1.0
+
+  # Local notifications
+  flutter_local_notifications: ^16.1.0
+
+  # Background tasks
+  workmanager: ^0.5.2
+
+  # Charts
+  fl_chart: ^0.66.0
+
+  # State management
+  provider: ^6.1.1
+
+  # Animations
+  animations: ^2.0.8
+  lottie: ^3.0.0
+
+  # Date/time
+  intl: ^0.18.1
+  table_calendar: ^3.0.9
+
+  # UI extras
+  flutter_slidable: ^3.0.1
+  shimmer: ^3.0.0
+  percent_indicator: ^4.2.3
+  google_fonts: ^6.1.0
+  gap: ^3.0.1
+
+  # RSS/HTML parsing
+  webfeed: ^0.7.0
+  html: ^0.15.4
+
+  # Shared preferences for non-sensitive data
+  shared_preferences: ^2.2.2
+
+  # UUID
+  uuid: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/animations/
+    - assets/icons/
